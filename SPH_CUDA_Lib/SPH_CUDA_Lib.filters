@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{caa51f2e-72fb-4ffc-b40d-0760f94b5fcc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header\Acceleration.cuh">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="header\Density.cuh">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="header\Common.cuh">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="header\InitParticle.cuh">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="header\FRNN.cuh">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="header\Force.cuh">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="header\SnowCuda.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="header\RigidSample.cuh">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="SnowCuda.cu" />
+  </ItemGroup>
+</Project>

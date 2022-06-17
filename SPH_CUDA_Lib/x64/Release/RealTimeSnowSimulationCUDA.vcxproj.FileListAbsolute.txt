@@ -1,0 +1,2 @@
+C:\Users\98kor\Desktop\GameArch\RealTimeSnowSimulationCUDA\x64\Release\RealTimeSnowSimulationCUDA.lib
+C:\Users\98kor\Desktop\SPH\RealTimeSnowSimulationCUDA\x64\Release\RealTimeSnowSimulationCUDA.lib
