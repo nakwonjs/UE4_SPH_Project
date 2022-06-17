@@ -1,8 +1,20 @@
-# 2022 Software Capstone Design    
+# 2022 Software Capstone Design
+소프트웨어융합 201710374 원종서
+
 ## requirements
 > * CUDA  v11.6
 > * UE4  v4.27
-> 
+
+## Results
+<img src="./img/result3.gif" width="60%" height="60%"/>    
+
+## 
+<img src="./img/result2.gif"/> <img src="./img/result1.gif"/>
+
+
+
+
+
 ## SPH Physics Modelling 
 **Navier-Stokes Equations**    
 <img src="./img/Navier–Stokes equations.jpg" width="50%" height="50%"/>    
@@ -33,3 +45,6 @@
 
 ## Rigid-Fluid Coupling Physics Modelling 
 <img src="./img/fluid-rigid.jpg" width="40%" height="45%"/>  <img src="./img/RigidBody.jpg" width="40%" height="45%"/> 
+
+## Screen Space Rendering
+<img src="./img/ScreenSpaceRendering.png" width="100%" height="100%"/>
