@@ -43,7 +43,7 @@
 4. Compute velocity and position form time intergration
 5. Update mesh Position
 
-## Rigid-Fluid Coupling Physics Modelling 
+## Rigid-Fluid Coupling
 <img src="./img/fluid-rigid.jpg" width="40%" height="45%"/>  <img src="./img/RigidBody.jpg" width="40%" height="45%"/> 
 
 ## Screen Space Rendering
