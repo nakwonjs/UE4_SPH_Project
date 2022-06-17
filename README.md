@@ -9,7 +9,7 @@
 <img src="./img/result3.gif" width="60%" height="60%"/>    
 
 ## 
-<img src="./img/result2.gif"/> <img src="./img/result1.gif"/>
+<img src="./img/result2.gif"width="45%" height="45%"/> <img src="./img/result1.gif"width="45%" height="45%"/>
 
 
 
