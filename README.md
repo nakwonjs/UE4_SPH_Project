@@ -48,3 +48,22 @@
 
 ## Screen Space Rendering
 <img src="./img/ScreenSpaceRendering.png" width="100%" height="100%"/>
+
+## References    
+* Müller, Matthias, David Charypar, and Markus H. Gross. 
+"Particle-based fluid simulation for interactive applications." Symposium on Computer animation. Vol. 2. 2003.
+
+* Akinci, Nadir, et al. 
+"Versatile rigid-fluid coupling for incompressible SPH." ACM Transactions on Graphics (TOG) 31.4 (2012): 1-8.
+
+* Ihmsen, Markus, et al. 
+"SPH fluids in computer graphics." EUROGRAPHICS 2014/S. LEFEBVRE AND M. SPAGNUOLO. 2014.
+
+* Gissler, Christoph, et al. 
+"Interlinked SPH pressure solvers for strong fluid-rigid coupling." ACM Transactions on Graphics (TOG) 38.1 (2019): 1-13.
+
+* van der Laan, Wladimir J., Simon Green, and Miguel Sainz. 
+"Screen space fluid rendering with curvature flow." Proceedings of the 2009 symposium on Interactive 3D graphics and games. 2009.
+
+* GREEN S. 
+“Screen space fluid rendering for games.” “http://developer.download.nvidia.com/presentations/2010/gdc/Direct3D_Effects.pdf”, 2010.
