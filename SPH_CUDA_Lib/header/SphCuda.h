@@ -67,9 +67,6 @@ public:
 
 
     // 강체관련 변수
-
-    
-
     unsigned int Max;
     unsigned int size;
     unsigned int Rigidsize;
@@ -81,15 +78,16 @@ public:
 	}
     ~SPH_CUDA() {}
     cudaError_t initSnowCUDA(unsigned int _size, unsigned int _MAX,  float3 startFloor, float3 endTop, std::string* error_message);
+    cudaError_t StartSimulationCUDA(float3* Pos, std::string* error_message);
     cudaError_t UpdateDensity(float3* debug, std::string* error_message);
 
-    cudaError_t UpdatePosition(float3* acc,float deltaTime,  std::string* error_message);
+    cudaError_t UpdatePosition(float3* pos,float deltaTime,  std::string* error_message);
     cudaError_t UpdateForce(float3* debug, std::string* error_message);
     cudaError_t FRNN(std::string* error_message);
-    void postErrorTask();
-    cudaError_t UpdateRigidForce(float3* rigforce, std::string* error_message);
 	
-	cudaError_t StartSimulationCUDA(float3* Pos, std::string* error_message);
+    void postErrorTask();
+
+    cudaError_t UpdateRigidForce(float3* rigforce, std::string* error_message);
 	cudaError_t UpdateRigidSample(float3* SampledPos, float3* SamlpedVel, std::string* error_message);
     
 	
